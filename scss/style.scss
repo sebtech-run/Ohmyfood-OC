@@ -15,8 +15,10 @@ $color-tertiary: #99E2D0;
 }
 
 
-body {
+body,
+html {
     margin: 0;
+    font-family: "Roboto";
 }
 
 .main-container {
@@ -40,7 +42,7 @@ body {
     background-color: #EAEAEA;
 
     &_text {
-        font-family: 'Roboto', sans-serif;
+
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
@@ -55,13 +57,13 @@ body {
 
     &_title {
         margin: 25px;
-        font-family: "Roboto";
+
         font-weight: 700;
         font-size: 24px;
     }
 
     &_text {
-        font-family: "Roboto";
+
         font-weight: 300;
         font-size: 18px;
         padding-bottom: 20px;
@@ -76,15 +78,37 @@ body {
 .function {
     padding-bottom: 20px;
 
+    &_container {
+        @media (min-width:1024px) {
+            max-width: 1280px;
+            margin: auto;
+
+        }
+    }
+
     &_title {
         margin-left: 20px;
         padding-top: 20px;
+
+        @media (min-width:1024px) {}
     }
 
+
     &_choice {
+        display: flex;
+        flex-direction: column;
         margin: 0;
         padding: 0;
         list-style: none;
+
+        @media (min-width:1024px) {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+
+
+        }
+
     }
 
     &_list {
@@ -99,9 +123,6 @@ body {
         margin-right: 30px;
 
 
-
-
-
     }
 
     &_icon {
@@ -110,7 +131,7 @@ body {
     }
 
     &_text {
-        font-family: "Roboto", sans-serif;
+
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
@@ -137,6 +158,8 @@ body {
     }
 
 
+
+
 }
 
 .restaurants {
@@ -148,6 +171,8 @@ body {
         padding-top: 50px;
         padding-left: 20px;
     }
+
+    @media (min-width:1024px) {}
 }
 
 .cards {
@@ -158,6 +183,12 @@ body {
     gap: 25px;
     padding-bottom: 35px;
 
+    @media (min-width:1024px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
     article {
         position: relative;
         width: 90%;
@@ -165,6 +196,10 @@ body {
         height: 250px;
         border-radius: 25px;
         background-color: #fff;
+
+        &:hover {
+            transform: scale(1.015);
+        }
     }
 
     &_img {
@@ -194,7 +229,7 @@ body {
             margin: 0;
             padding-top: 5px;
             color: black;
-            font-family: "Roboto", sans-serif;
+
             font-weight: 700;
             font-size: 18px;
             line-height: 20px;
@@ -204,7 +239,7 @@ body {
             margin: 0;
             padding-top: 7px;
             color: black;
-            font-family: "Roboto", sans-serif;
+
             font-weight: 300px;
             font-size: 17px;
             line-height: 20px;
@@ -216,7 +251,30 @@ body {
             color: #101010;
         }
     }
+
+    &_icon {
+        height: 32px;
+        width: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
 
@@ -250,7 +308,7 @@ body {
 
             p {
                 margin: 0;
-                font-family: "Roboto";
+
                 font-weight: 500;
                 font-size: 16px;
             }

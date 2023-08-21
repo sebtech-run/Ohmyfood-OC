@@ -20,6 +20,12 @@ $color-tertiary: #99E2D0;
     background-image: linear-gradient(0deg, color.scale($color-primary, $alpha: -10%) 0%, color.scale($color-secondary, $alpha: -10%) 100%);
     padding: 14px 24px;
     cursor: pointer;
-    box-shadow: 4px 4px 10px rgba($color: #000000, $alpha: 0.5);
+    transition-duration: 0.25s;
+    box-shadow: 4px 4px 10px rgba($color: #000000, $alpha: 0.50);
+
+    &:hover {
+        background-color: white;
+        box-shadow: 4px 4px 8px black rgba(0, 0, 0, 0.50);
+    }
 
 }
