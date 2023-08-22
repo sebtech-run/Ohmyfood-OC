@@ -6,10 +6,6 @@ $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 
 
-
-
-
-
 @mixin buttonprimary() {
 
     border-radius: $border-radius;
@@ -27,6 +23,10 @@ $color-tertiary: #99E2D0;
     &:hover {
         background-color: white;
         box-shadow: 4px 4px 8px black rgba(0, 0, 0, 0.50);
+    }
+
+    @media (min-width:1024px) {
+        padding: 14px 36px;
     }
 
 }
