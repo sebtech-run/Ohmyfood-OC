@@ -21,6 +21,11 @@
     max-width: 100%;
     height: 275px;
 
+    @media (min-width:1024px) {
+        height: 380px;
+
+    }
+
     &_resto {
         width: 100%;
         height: 100%;
@@ -51,10 +56,37 @@
     }
 }
 
+@media (min-width:1024px) {
+
+    .cartemenu {
+        width: 1000px;
+        margin: auto;
+    }
+
+    .cartes {
+        div {
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+
+            h2 {
+                font-weight: 400;
+            }
+        }
+    }
+
+
+
+}
+
+
+
 .menus {
 
     background-color: #f6f6f6;
     padding-bottom: 50px;
+
+    @media (min-width:1024px) {}
 
     &_title {
         position: relative;
@@ -83,6 +115,8 @@
     &_list {
         padding: 0;
 
+
+
     }
 
     &_lists {
@@ -96,6 +130,10 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 20px;
+
+
+
+
 
         h4 {
             margin: 0;

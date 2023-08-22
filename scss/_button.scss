@@ -13,6 +13,7 @@ $color-tertiary: #99E2D0;
 @mixin buttonprimary() {
 
     border-radius: $border-radius;
+    font-family: "Roboto";
     color: white;
     font-weight: 500;
     font-size: 17px;
