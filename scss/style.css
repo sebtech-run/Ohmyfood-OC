@@ -288,9 +288,9 @@ html {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
   left: 0;
-  transform: translateX(-50%);
+  top: 50%;
 }
 .function_color {
   color: #9356DC;
@@ -348,6 +348,7 @@ html {
   background-color: rgb(158, 226, 208);
   color: #008766;
   padding: 10px;
+  border-radius: 5px;
 }
 .cards_title {
   height: 30%;
