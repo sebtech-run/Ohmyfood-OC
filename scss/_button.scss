@@ -18,11 +18,10 @@ $color-tertiary: #99E2D0;
     padding: 14px 24px;
     cursor: pointer;
     transition-duration: 0.25s;
-    box-shadow: 4px 4px 10px rgba($color: #000000, $alpha: 0.50);
-
+    box-shadow: 4px 4px 10px black;
     &:hover {
         background-color: white;
-        box-shadow: 4px 4px 8px black rgba(0, 0, 0, 0.50);
+        box-shadow: 4px 4px 8px black;
     }
 
     @media (min-width:1024px) {

@@ -213,11 +213,11 @@ html {
   padding: 14px 24px;
   cursor: pointer;
   transition-duration: 0.25s;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px black;
 }
 .information_btn:hover {
   background-color: white;
-  box-shadow: 4px 4px 8px black rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 8px black;
 }
 @media (min-width: 1024px) {
   .information_btn {
@@ -369,7 +369,7 @@ html {
   margin: 0;
   padding-top: 7px;
   color: black;
-  font-weight: 300px;
+  font-weight: 300;
   font-size: 17px;
   line-height: 20px;
 }
