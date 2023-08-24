@@ -422,33 +422,35 @@ html {
 }
 
 .footer {
-  width: 100%;
-  height: 186px;
   background-color: #353535;
-  margin: 0;
 }
 .footer .container {
   display: flex;
   flex-direction: column;
+  padding: 16px;
 }
 .footer_logo {
   font-family: "Shrikhand";
   color: white;
   margin: 0;
-  padding: 20px;
+  margin-bottom: 16px;
+}
+.footer_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .footer_text {
+  margin: 8px 0;
+}
+.footer_link {
   color: white;
-  padding-left: 20px;
+  text-decoration: none;
 }
-.footer_text div {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  margin-bottom: 5px;
+.footer_link:hover {
+  text-decoration: underline;
 }
-.footer_text div p {
-  margin: 0;
-  font-weight: 500;
-  font-size: 16px;
+.footer_icon {
+  margin-right: 8px;
+  width: 18px;
 }/*# sourceMappingURL=style.css.map */
