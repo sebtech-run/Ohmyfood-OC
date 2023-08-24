@@ -95,7 +95,7 @@ html {
         margin-left: 20px;
         padding-top: 20px;
 
-       
+
     }
 
     &_choice {
@@ -158,7 +158,7 @@ html {
         left: 0;
         top: 50%;
     }
-       
+
 
     &_color {
         color: $color-primary;
@@ -269,43 +269,48 @@ html {
 }
 
 
+
+
+//FOOTER
+
 .footer {
 
-    width: 100%;
-    height: 186px;
     background-color: #353535;
-    margin: 0;
 
     .container {
         display: flex;
         flex-direction: column;
-
+        padding: 16px;
     }
 
     &_logo {
         font-family: 'Shrikhand';
         color: white;
         margin: 0;
-        padding: 20px;
+        margin-bottom: 16px;
+    }
+
+    &_list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
 
     &_text {
+        margin: 8px 0;
+    }
+
+    &_link {
         color: white;
-        padding-left: 20px;
+        text-decoration: none;
 
-        div {
-
-            display: flex;
-            flex-direction: row;
-            gap: 10px;
-            margin-bottom: 5px;
-
-            p {
-                margin: 0;
-
-                font-weight: 500;
-                font-size: 16px;
-            }
+        &:hover {
+            text-decoration: underline;
         }
+    }
+
+    &_icon {
+        margin-right: 8px;
+        width: 18px;
     }
 }
