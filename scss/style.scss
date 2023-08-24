@@ -1,6 +1,7 @@
 //mes imports
 @import "pages";
 @import "button.scss";
+@import "animation.scss";
 
 
 //mes variables couleurs
@@ -87,7 +88,6 @@ html {
         @media (min-width:1024px) {
             max-width: 1280px;
             margin: auto;
-
         }
     }
 
@@ -95,7 +95,7 @@ html {
         margin-left: 20px;
         padding-top: 20px;
 
-        @media (min-width:1024px) {}
+       
     }
 
     &_choice {
