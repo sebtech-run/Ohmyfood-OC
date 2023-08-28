@@ -266,7 +266,36 @@ html {
         align-items: center;
         justify-content: center;
     }
+
+    .card_icon {
+        position: relative;
+        margin-right: 50px;
+
+        i {
+            position: absolute;
+           
+        }
+
+        .fas {
+            color: transparent;
+            background-image: linear-gradient($color-primary, $color-secondary);
+            background-clip: text;
+            opacity: 0;
+            transition: all 200ms ease-in-out;
+        }
+        &:hover .fas{
+            opacity: 1;
+             
+        }
+
+
+
+
+
+    }
 }
+
+
 
 //FOOTER
 
@@ -298,11 +327,7 @@ html {
         margin-bottom: 16px;
         display: flex;
         
-<<<<<<< HEAD
-=======
-       
 
->>>>>>> parent of abfb487 (hover heart terminé)
         @media (min-width:768px) {
             margin-bottom: 0;
             padding-right: 50px;
