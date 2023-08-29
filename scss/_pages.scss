@@ -109,8 +109,9 @@
     }
 
     &_lists {
-        padding: 16px;
+        padding: 0;
         width: 90%;
+        height: 70px;
         border-radius: 15px;
         margin: auto;
         background-color: rgb(255, 255, 255);
@@ -119,6 +120,21 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 20px;
+        overflow: hidden;
+
+        div:first-child {
+            width: 90%;
+            padding: 16px;
+            
+        }
+
+        div:nth-child(2) {
+            width: 10%;
+            text-align: center;
+            padding-right: 10px;
+
+           
+        }
 
         @media (min-width:1024px) {
             width: 70%;
@@ -147,7 +163,59 @@
         }
     }
 
+   .menus_lists {
 
+    
+     
+    .menus_valide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #99E2D0;
+        margin-right: -60px;
+        width: 60px;
+        height: 100%; 
+        opacity: 0;
+        border-radius: 0 15px 15px 0;
+        
+        
+    }
+
+    &:hover .menus_valide {
+        margin-right: 0;
+        opacity: 1;
+       
+        
+        
+    }
+
+    .menus_iconwrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        height: 16px;
+        width: 16px;
+        background-color: white;
+        transform: rotate(180deg);
+        transition-duration: 0.5s;
+        padding: 10px;
+        
+    }
+
+    &:hover .menus_iconwrap {
+        transform: rotate(0);
+    }
+
+    .menus_icon {
+        color: #99E2D0 ;
+        
+    }
+
+   
+
+
+   }
 
     &_button {
         width: 250px;
