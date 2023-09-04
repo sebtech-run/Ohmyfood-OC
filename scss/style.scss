@@ -1,10 +1,7 @@
-//mes imports
+
 @import "pages";
 @import "button.scss";
 @import "animation.scss";
-
-
-//mes variables couleurs
 
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
@@ -29,8 +26,8 @@ html {
 
 .header {
     &_logo {
-        text-align: center;
-        font-family: "Shrikhand", cursive;
+    text-align: center;
+    font-family: "shrikhand";
     }
 }
 
@@ -288,15 +285,8 @@ html {
             opacity: 1;
              
         }
-
-
-
-
-
     }
 }
-
-
 
 //FOOTER
 
