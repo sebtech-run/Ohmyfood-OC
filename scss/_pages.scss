@@ -152,7 +152,27 @@
         
         div:first-child {
             width: 90%;
-            padding: 16px;    
+            padding: 16px; 
+            text-overflow: ellipsis;  
+            overflow: hidden; 
+            white-space: nowrap;
+            line-clamp: 1;
+            
+            
+            h4 {
+                
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                
+            }
+
+            p {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+
+            }
         }
 
         div:nth-child(2) {
@@ -171,6 +191,7 @@
             font-family: 'Roboto';
             font-weight: 600;
             font-size: 18px;
+            
  
         }
 
@@ -188,10 +209,13 @@
             font-size: 15px;
         }
 
-        
+       
     }
 
    .menus_lists {
+    
+    animation-name: flash;
+    animation-duration: 3s;
 
     .menus_valide {
         display: flex;
@@ -245,4 +269,20 @@
     }
 }
 
+@for $i from 0 through 9 {
 
+    .delay-#{$i} {
+        animation-delay: ($i/10)s;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 10%;
+        margin-top: 40px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}

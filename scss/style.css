@@ -134,6 +134,20 @@
 .menus_lists div:first-child {
   width: 90%;
   padding: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-clamp: 1;
+}
+.menus_lists div:first-child h4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.menus_lists div:first-child p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .menus_lists div:nth-child(2) {
   width: 10%;
@@ -163,6 +177,10 @@
   font-family: "Roboto";
   font-weight: 700;
   font-size: 15px;
+}
+.menus .menus_lists {
+  animation-name: flash;
+  animation-duration: 3s;
 }
 .menus .menus_lists .menus_valide {
   display: flex;
@@ -209,6 +227,56 @@
   padding-top: 25px;
 }
 
+.delay-0 {
+  animation-delay: 0 s;
+}
+
+.delay-1 {
+  animation-delay: 0.1 s;
+}
+
+.delay-2 {
+  animation-delay: 0.2 s;
+}
+
+.delay-3 {
+  animation-delay: 0.3 s;
+}
+
+.delay-4 {
+  animation-delay: 0.4 s;
+}
+
+.delay-5 {
+  animation-delay: 0.5 s;
+}
+
+.delay-6 {
+  animation-delay: 0.6 s;
+}
+
+.delay-7 {
+  animation-delay: 0.7 s;
+}
+
+.delay-8 {
+  animation-delay: 0.8 s;
+}
+
+.delay-9 {
+  animation-delay: 0.9 s;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 10%;
+    margin-top: 40px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
 .loader {
   position: fixed;
   height: 100%;
