@@ -137,7 +137,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  line-clamp: 1;
+  
 }
 .menus_lists div:first-child h4 {
   text-overflow: ellipsis;
