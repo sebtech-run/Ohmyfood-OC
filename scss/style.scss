@@ -67,7 +67,6 @@ html {
     }
 
     &_text {
-
         font-weight: 300;
         font-size: 18px;
         padding-bottom: 20px;
@@ -91,12 +90,9 @@ html {
     &_title {
         margin-left: 20px;
         padding-top: 20px;
-
-
     }
 
     &_choice {
-
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -124,8 +120,6 @@ html {
         @media (min-width:1024px) {
             width: 350px;
         }
-
-
     }
 
     &_icon {
@@ -134,7 +128,6 @@ html {
     }
 
     &_text {
-
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
@@ -156,15 +149,12 @@ html {
         top: 50%;
     }
 
-
     &_color {
         color: $color-primary;
     }
 }
 
-
 .restaurants {
-
     margin-top: 30px;
     background-color: #f6f6f6;
 
@@ -175,7 +165,6 @@ html {
 }
 
 .cards {
-
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -197,7 +186,6 @@ html {
 
         @media (min-width:1024px) {
             width: 95%;
-
         }
 
         &:hover {
@@ -233,7 +221,6 @@ html {
             margin: 0;
             padding-top: 5px;
             color: black;
-
             font-weight: 700;
             font-size: 18px;
             line-height: 20px;
@@ -243,7 +230,6 @@ html {
             margin: 0;
             padding-top: 7px;
             color: black;
-
             font-weight: 300;
             font-size: 17px;
             line-height: 20px;
@@ -269,8 +255,7 @@ html {
         margin-right: 50px;
 
         i {
-            position: absolute;
-           
+            position: absolute;   
         }
 
         .fas {
@@ -282,8 +267,7 @@ html {
         }
         
         &:hover .fas {
-            opacity: 1;
-             
+            opacity: 1;   
         }
     }
 }
@@ -291,7 +275,6 @@ html {
 //FOOTER
 
 .footer {
-
     background-color: #353535;
 
     .container {
@@ -308,7 +291,6 @@ html {
             gap: 100px;
             padding: 50px 0px 20px 0px;
         }
-
     }
 
     &_logo {
@@ -318,7 +300,6 @@ html {
         margin-bottom: 16px;
         display: flex;
         
-
         @media (min-width:768px) {
             margin-bottom: 0;
             padding-right: 50px;
@@ -333,7 +314,6 @@ html {
         padding: 0;
         margin: 0;
        
-
         @media (min-width:768px) {
             flex-direction: row;
             gap: 20px;

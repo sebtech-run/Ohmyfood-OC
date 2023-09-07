@@ -18,7 +18,6 @@
 }
 
 .image {
-
     max-width: 100%;
     height: 275px;
 
@@ -34,7 +33,6 @@
 }
 
 .cartes {
-
     margin-top: -50px;
     border-radius: 32px 32px 0 0;
     background-color: #f6f6f6;
@@ -132,8 +130,7 @@
     }
 
     &_list {
-        padding: 0;
-        
+        padding: 0; 
     }
 
     &_lists {
@@ -157,21 +154,17 @@
             overflow: hidden; 
             white-space: nowrap;
             
-            
-            
             h4 {
                 
                 text-overflow: ellipsis;
                 overflow: hidden;
-                white-space: nowrap;
-                
+                white-space: nowrap;   
             }
 
             p {
                 text-overflow: ellipsis;
                 overflow: hidden;
                 white-space: nowrap;
-
             }
         }
 
@@ -191,8 +184,6 @@
             font-family: 'Roboto';
             font-weight: 600;
             font-size: 18px;
-            
- 
         }
 
         p {
@@ -207,13 +198,10 @@
             font-family: 'Roboto';
             font-weight: 700;
             font-size: 15px;
-        }
-
-       
+        }  
     }
 
    .menus_lists {
-    
     animation-name: flash;
     animation-duration: 3s;
 
@@ -270,7 +258,6 @@
 }
 
 @for $i from 0 through 9 {
-
     .delay-#{$i} {
         animation-delay: ($i/10)+'s';
     }
